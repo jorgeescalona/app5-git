@@ -5,7 +5,7 @@ $ (document).ready(function(e){
 			  navigator.notification.beep(2);
 		  }); //tap sonar
 			  $('#vibrar').tap(function(){
-				  navigator.notificacion.vibrate(2000)
+				  navigator.notificacion.vibrate(2000);
 			  }); //tap vibrar
 		},false);//cierre deviceready
 });//cierre del ready
